@@ -1,0 +1,10 @@
+reader=open('output_data.txt','a')
+n=int(input('Enter number of students: '))
+for i in range(1,n+1):
+    print('For student'+str(i))
+    name=input('Enter name: ')
+    score=input('Enter the score: ')
+    reader.write('Name: '+name+'  Score: '+score+'\n')
+reader.close()
+f=open('output_data.txt','r')
+print(f.read())
