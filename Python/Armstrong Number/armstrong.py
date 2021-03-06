@@ -7,12 +7,7 @@ elif l>u:
 else:
     print("Armstrong numbers between "+str(l)+" and "+str(u)+" are:")
     for num in range(l,u+1):
-        sum=0
-        temp=num
-        while temp>0:
-            digit=temp%10
-            sum+=digit**3
-            temp//=10
+        temp = [int(d)**3 for d in str(num)] #single line of code using list comprehension instead of using while loop
         if num==sum:
             print(num)
             counter+=1
