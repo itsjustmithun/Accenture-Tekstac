@@ -15,12 +15,5 @@ public class InitCap{
                     upps++;
             }
         }
-        if(word==upps)
-            System.out.println("First character of each word is already in uppercase");
-        else{
-            for(char i:str){
-                System.out.print(i);
-            }
-        }
     }
 }
