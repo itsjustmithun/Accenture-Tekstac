@@ -4,4 +4,8 @@
 Functions: 
 
 ## Pull Request Summary
-Error summarizing PR: HTTPError: 404 - {"error":{"message":"Unknown request URL: POST /v1/chat/completions. Please check the URL for typos, or see the docs at https://console.groq.com/docs/","type":"invalid_request_error","code":"unknown_url"}}
+The provided pull request description is quite brief. Here's a possible summary:
+
+"Verify the changes made in this commit are functioning correctly."
+
+If you could provide the full pull request description, I'd be happy to assist you with a more detailed summary.
