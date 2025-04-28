@@ -4,25 +4,22 @@
 Functions: 
 
 ## Pull Request Summary
-Here's a summary of the pull request description for documentation purposes:
+PR #9: dummy
 
-**Bump junit from 3.8.1 to 4.13.1**
+Author: itsjustmithun
+Status: open
+Created: 2025-04-21 14:10:38+00:00
 
-This pull request updates the junit dependency from version 3.8.1 to 4.13.1. 
-
-**Key Changes**
-
-1. **Security Fix**: `TemporaryFolder` now limits access to temporary folders on Java 1.7 or later to prevent local information disclosure vulnerability.
-2. **FrameworkField constructor**: The constructor of `FrameworkField` class is now public, allowing custom runners to create `FrameworkField` instances.
-
-**Release Notes**
-
-The release notes for JUnit 4.13.1 can be found [here](https://github.com/junit-team/junit/blob/HEAD/doc/ReleaseNotes4.13.1.md).
-
-**Changelog**
-
-The full changelog for this update can be found [here](https://github.com/junit-team/junit4/blob/main/doc/ReleaseNotes4.13.1.md).
-
-**Dependabot**
-
-This pull request was created by Dependabot, and Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself.
+Changes:
+- Accenture Mock Test/FortiMilligrade (1)/FortiMilligrade/.project: modified (4 lines)
+- JSP and Servlets/Employee Registration - Use Bean/Employee/.classpath: modified (13 lines)
+- JSP and Servlets/Employee Registration - Use Bean/Employee/.project: modified (4 lines)
+- JSP and Servlets/Greeting App/GreetingWeb/.classpath: modified (13 lines)
+- JSP and Servlets/Greeting App/GreetingWeb/.project: modified (4 lines)
+- JSP and Servlets/Login Scenario/LoginScenario/.classpath: modified (13 lines)
+- JSP and Servlets/Login Scenario/LoginScenario/.project: modified (4 lines)
+- JSP and Servlets/Price List - with Model class/PriceList/.classpath: modified (13 lines)
+- JSP and Servlets/Price List - with Model class/PriceList/.project: modified (4 lines)
+- JSP and Servlets/Shopping - HTTP Session/Shopping/.classpath: modified (13 lines)
+- JSP and Servlets/Shopping - HTTP Session/Shopping/.project: modified (4 lines)
+- Java/InitCap/InitCap.java: modified (7 lines)
