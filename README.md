@@ -4,12 +4,23 @@
 Functions: 
 
 ## Pull Request Summary
-This pull request description outlines the update of the [junit](https://github.com/junit-team/junit4) dependency from version 4.12 to 4.13.1. 
+This pull request updates the JUnit version from 3.8.1 to 4.13.1. Here are the key changes:
 
-The major changes and updates in the new version are:
+**Release Notes:**
 
-* Release notes for JUnit 4.13.1, 4.13, 4.13 RC 2, 4.13 RC 1, 4.13 Beta 3, 4.13 Beta 2, and 4.13 Beta 1 are provided.
-* The code has undergone several changes, including the addition of a link to `assertThrows` in exception testing and the use of separate lines for annotations in Javadoc.
-* Several issues have been fixed, such as the explicit wrapping of float parameters for consistency and the fix of a GitHub link in the FAQ.
+- The release notes for JUnit 4.13.1, 4.13, 4.13 RC 2, 4.13 RC 1, 4.13 Beta 3, 4.13 Beta 2, and 4.13 Beta 1 are included.
+- Release notes for JUnit 4.12, 4.12 Beta 3, 4.12 Beta 2, 4.12 Beta 1, and 4.11 do not have any information.
 
-The update has been made possible by Dependabot, a GitHub tool that automates dependency updates. Dependabot has resolved any conflicts with the update and has provided several options for managing the merge of the updated code, such as rebase, recreate, merge, and squash and merge.
+**Changelog:**
+
+- The changelog for JUnit 4.13.1 is included, which covers the following changes:
+  - **Security fix:** TemporaryFolder now limits access to temporary folders on Java 1.7 or later, fixing a local information disclosure vulnerability.
+  - **Test Runners:** The FrameworkField constructor is now public, allowing custom runners to create FrameworkField instances.
+
+**Dependabot Compatibility Score:**
+
+The Dependabot compatibility score indicates that the update from JUnit 3.8.1 to 4.13.1 is compatible. 
+
+**Dependabot Commands and Options:**
+
+This section provides commands and options for interacting with Dependabot, which automates the process of updating dependencies and managing security issues.
