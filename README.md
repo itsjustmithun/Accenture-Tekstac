@@ -4,11 +4,11 @@
 Functions: 
 
 ## Pull Request Summary
-PR #8: Update armstrong.py
+PR #7: Bump junit from 4.12 to 4.13.1 in /JSP and Servlets/Shopping - HTTP Session/Shopping
 
-Author: Raj-palival
+Author: dependabot[bot]
 Status: closed
-Created: 2021-03-06 11:16:31+00:00
+Created: 2020-10-14 00:22:50+00:00
 
 Changes:
-- Python/Armstrong Number/armstrong.py: modified (9 lines)
+- JSP and Servlets/Shopping - HTTP Session/Shopping/pom.xml: modified (2 lines)
