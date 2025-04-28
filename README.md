@@ -4,11 +4,11 @@
 Functions: 
 
 ## Pull Request Summary
-PR #2: Bump junit from 3.8.1 to 4.13.1 in /Maven/MavenTestApp/MavenTestApp
+PR #1: Bump junit from 3.8.1 to 4.13.1 in /Maven/MavenAppCommand/MavenAppCommand
 
 Author: dependabot[bot]
 Status: closed
-Created: 2020-10-13 23:54:13+00:00
+Created: 2020-10-13 23:54:11+00:00
 
 Changes:
-- Maven/MavenTestApp/MavenTestApp/pom.xml: modified (2 lines)
+- Maven/MavenAppCommand/MavenAppCommand/pom.xml: modified (2 lines)
