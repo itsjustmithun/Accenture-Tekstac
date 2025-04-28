@@ -4,12 +4,14 @@
 Functions: 
 
 ## Pull Request Summary
-This pull request bumps the version of the JUnit library from 4.12 to 4.13.1. The updated version contains various bug fixes and improvements, including:
+This pull request bumps the version of JUnit from 4.12 to 4.13.1, which includes various bug fixes and improvements. 
 
-- Fixing issues with floating-point numbers in test cases
-- Updating links and documentation
-- Making changes for consistency and compatibility
+Release Notes for JUnit 4.13.1 can be found at [https://github.com/junit-team/junit/blob/HEAD/doc/ReleaseNotes4.13.1.md](https://github.com/junit-team/junit/blob/HEAD/doc/ReleaseNotes4.13.1.md). 
 
-The changes are based on the latest release notes for JUnit 4.13.1, which can be viewed at https://github.com/junit-team/junit/blob/HEAD/doc/ReleaseNotes4.13.1.md.
+Some of the key changes include:
 
-Additionally, this pull request is automated by Dependabot, a tool that helps maintain dependencies and libraries in a project. Dependabot will resolve any conflicts with this PR and can be triggered for certain actions, such as rebasing or recreating the PR, by commenting on it with specific commands.
+- Fixed issues related to exception testing and GitHub links.
+- Added subheadlines to class Javadoc and deprecated since jdk9 replacing constructor instance of Double and Float.
+- Additional bug fixes and improvements.
+
+Dependabot is used to manage and automate the process of updating dependencies, and in this case, it has been used to update JUnit from version 4.12 to 4.13.1.
