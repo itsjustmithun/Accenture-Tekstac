@@ -4,23 +4,12 @@
 Functions: 
 
 ## Pull Request Summary
-This pull request updates the JUnit version from 3.8.1 to 4.13.1. Here are the key changes:
+This pull request description can be summarized as follows:
 
-**Release Notes:**
-
-- The release notes for JUnit 4.13.1, 4.13, 4.13 RC 2, 4.13 RC 1, 4.13 Beta 3, 4.13 Beta 2, and 4.13 Beta 1 are included.
-- Release notes for JUnit 4.12, 4.12 Beta 3, 4.12 Beta 2, 4.12 Beta 1, and 4.11 do not have any information.
-
-**Changelog:**
-
-- The changelog for JUnit 4.13.1 is included, which covers the following changes:
-  - **Security fix:** TemporaryFolder now limits access to temporary folders on Java 1.7 or later, fixing a local information disclosure vulnerability.
-  - **Test Runners:** The FrameworkField constructor is now public, allowing custom runners to create FrameworkField instances.
-
-**Dependabot Compatibility Score:**
-
-The Dependabot compatibility score indicates that the update from JUnit 3.8.1 to 4.13.1 is compatible. 
-
-**Dependabot Commands and Options:**
-
-This section provides commands and options for interacting with Dependabot, which automates the process of updating dependencies and managing security issues.
+- It is bumping the version of the JUnit library from 3.8.1 to 4.13.1.
+- The bump is being made using Dependabot.
+- The new version includes several security and bug fixes, including:
+  - A security fix for a local information disclosure vulnerability in the TemporaryFolder class.
+  - A change to the FramworkField constructor that makes it public, allowing custom runners to create FrameworkField instances.
+- The changes are from the JUnit 4.13.1 release notes, which can be found in the GitHub repository.
+- Dependabot will resolve any conflicts with this pull request as long as it is not altered manually.
