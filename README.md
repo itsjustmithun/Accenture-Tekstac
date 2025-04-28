@@ -557,3 +557,49 @@ In this revised code:
 *   I have added error handling for invalid inputs like `null` or empty strings.
 *   I have removed the `Scanner` instance and only use `Scanner` when necessary.
 *   I have used `StringBuilder` for efficient string concatenation.
+
+
+
+## PR #9: dummy
+- Author: itsjustmithun
+- Created: 2025-04-21 14:10:38+00:00
+- Status: open
+
+### Files Changed:
+- Accenture Mock Test/FortiMilligrade (1)/FortiMilligrade/.project: |.project: Added a new <filteredResources> section with a single filter.
+- CHANGELOG.md: CHANGELOG.md: Update multi-project documentation to reflect changes made to Eclipse-related project configuration files.
+- JSP and Servlets/Employee Registration - Use Bean/Employee/.classpath: #.classpath: Added several new 'classpathentry' tags to configure the classpath for the project, and updated attributes for existing entries.
+- JSP and Servlets/Employee Registration - Use Bean/Employee/.project: Employee Registration project file (Employee/.project): Added Maven 2 builder and Maven 2 nature, including a filtered resource to exclude certain directories and files.
+- JSP and Servlets/Greeting App/GreetingWeb/.classpath: .classpath: Classpath entries have been added for generated sources and resources, while existing entries have been updated with attribute changes.
+- JSP and Servlets/Greeting App/GreetingWeb/.project: .GreetingWeb/.project: Added new filteredResource content with a regex filter.
+- JSP and Servlets/Login Scenario/LoginScenario/.classpath: <classpath.xml>: Added a new classpathentry for target/generated-test-sources/test-annotations with specific attributes.
+- JSP and Servlets/Login Scenario/LoginScenario/.project: .project: Added new filtered resource filter with id '1745244545787' and matched regex against 'node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__'.
+- JSP and Servlets/Price List - with Model class/PriceList/.classpath: .classpath: Added two new classpath entries for target/generated-test-sources/test-annotations and target/generated-sources/annotations.
+- JSP and Servlets/Price List - with Model class/PriceList/.project:  `.project`: Added new filtered resource filter ID '1745244545790' with a regex filter matcher to exclude specific directories.
+- JSP and Servlets/Shopping - HTTP Session/Shopping/.classpath: <classpath>/Shopping/.classpath: several classpathentry configurations were updated with changed or added attributes
+- JSP and Servlets/Shopping - HTTP Session/Shopping/.project: \.project: The 'filteredResources' section now contains a single 'filter' with a 'matcher' and 'arguments' to filter 'node_modules', '.git', and '__CREATED_BY_JAVA_LANGUAGE_SERVER__'.
+- Java/InitCap/InitCap.java: Java/InitCap/InitCap.java: Modified the String to be read from input into a char array for case conversion and whitespace handling.
+- README.md: README.md: This pull request aims to provide a documentation template for code changes, including documented changes, specific changes, descriptions of the changes, and benefits of the changes.
+
+### Overall Summary:
+Here is a comprehensive summary of the actual changes made in this PR:
+
+1. **Eclipse Project Configuration Files Changes**
+   - **Accenture Mock Test/FortiMilligrade (1)/FortiMilligrade/.project**: Added a new `<filteredResources>` section with a single filter.
+   - **JSP and Servlets/Employee Registration - Use Bean/Employee/.classpath**: Added several new 'classpathentry' tags to configure the classpath for the project, and updated attributes for existing entries.
+   - **JSP and Servlets/Employee Registration - Use Bean/Employee/.project**: Added Maven 2 builder and Maven 2 nature, including a filtered resource to exclude certain directories and files.
+   - **JSP and Servlets/Greeting App/GreetingWeb/.classpath**: Classpath entries have been added for generated sources and resources, while existing entries have been updated with attribute changes.
+   - **JSP and Servlets/Greeting App/GreetingWeb/.project**: Added new filteredResource content with a regex filter.
+   - **JSP and Servlets/Login Scenario/LoginScenario/.classpath**: Added a new classpathentry for target/generated-test-sources/test-annotations with specific attributes.
+   - **JSP and Servlets/Login Scenario/LoginScenario/.project**: Added new filtered resource filter with id '1745244545787' and matched regex against 'node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__'.
+   - **JSP and Servlets/Price List - with Model class/PriceList/.classpath**: Added two new classpath entries for target/generated-test-sources/test-annotations and target/generated-sources/annotations.
+   - **JSP and Servlets/Price List - with Model class/PriceList/.project**: Added new filtered resource filter ID '1745244545790' with a regex filter matcher to exclude specific directories.
+   - **JSP and Servlets/Shopping - HTTP Session/Shopping/.classpath**: Classpath entry configurations were updated with changed or added attributes
+   - **JSP and Servlets/Shopping - HTTP Session/Shopping/.project**: The 'filteredResources' section now contains a single 'filter' with a 'matcher' and 'arguments' to filter 'node_modules', '.git', and '__CREATED_BY_JAVA_LANGUAGE_SERVER__'.
+
+2. **Java Changes**
+   - **Java/InitCap/InitCap.java**: Modified the String to be read from input into a char array for case conversion and whitespace handling.
+
+3. **Documentation and README File Changes**
+   - **CHANGELOG.md**: Update multi-project documentation to reflect changes made to Eclipse-related project configuration files.
+   - **README.md**: This file has a misleading change description, but no actual changes have been made to the file.
