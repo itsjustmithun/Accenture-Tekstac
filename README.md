@@ -4,11 +4,11 @@
 Functions: 
 
 ## Pull Request Summary
-PR #3: Bump junit from 4.12 to 4.13.1 in /JSP and Servlets/Employee Registration - Use Bean/Employee
+PR #2: Bump junit from 3.8.1 to 4.13.1 in /Maven/MavenTestApp/MavenTestApp
 
 Author: dependabot[bot]
 Status: closed
-Created: 2020-10-14 00:18:19+00:00
+Created: 2020-10-13 23:54:13+00:00
 
 Changes:
-- JSP and Servlets/Employee Registration - Use Bean/Employee/pom.xml: modified (2 lines)
+- Maven/MavenTestApp/MavenTestApp/pom.xml: modified (2 lines)
